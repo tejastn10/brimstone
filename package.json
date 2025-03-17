@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"main": "./out/main/index.js",
 	"scripts": {
-		"format": "prettier --write \"**/*.{js,ts,tsx,md,json}\"",
+		"format": "prettier --write \"**/*.{js,ts,tsx,md,json,css}\"",
 		"lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
 		"prepare": "husky",
 		"typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
