@@ -10,7 +10,9 @@
 ![Vite](https://img.shields.io/badge/Vite-6%2B-646CFF?logo=vite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
-**Brimstone** is a modern Electron application template with React and TypeScript. Built with performance and developer experience in mind, it provides a solid foundation for creating cross-platform desktop applications with web technologies.
+**Brimstone** is a modern Electron application template with React and TypeScript. Built with
+performance and developer experience in mind, it provides a solid foundation for creating
+cross-platform desktop applications with web technologies.
 
 ---
 
@@ -43,22 +45,22 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/tejastn10/brimstone.git
-    cd brimstone
-    ```
-  
+   ```bash
+   git clone https://github.com/tejastn10/brimstone.git
+   cd brimstone
+   ```
+
 2. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 4. Your Electron app should launch automatically in development mode.
 
@@ -185,7 +187,8 @@ To customize your application details, modify the following files:
 
 ### Styling and Theming
 
-The project includes minimal styling to get you started. Feel free to integrate your preferred styling solution:
+The project includes minimal styling to get you started. Feel free to integrate your preferred
+styling solution:
 
 - CSS/SCSS Modules
 - Styled Components
