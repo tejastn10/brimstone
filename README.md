@@ -23,8 +23,7 @@ cross-platform desktop applications with web technologies.
 - **Vite-powered**: Enjoy lightning-fast HMR during development
 - **Cross-platform Building**: Easily package for Windows, macOS, and Linux
 - **Developer Experience**:
-  - **ESLint**: Maintain code quality with static analysis
-  - **Prettier**: Keep your codebase consistent with automatic formatting
+  - **BiomeJS**: Enforces consistent code quality.
   - **Hot Reloading**: See changes instantly during development
   - **Production Ready**: Optimized build configurations for all platforms
 
@@ -73,8 +72,7 @@ Ensure you have the following installed:
 For the best development experience, we recommend:
 
 - [VSCode](https://code.visualstudio.com/) with the following extensions:
-  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
 
 ### Available Scripts
 
@@ -158,11 +156,9 @@ brimstone/
 ├── .gitignore                  # Git ignore configuration
 ├── .commitlintrc.yml           # Commitlint configuration
 ├── .nvmrc                      # Node version manager config
-├── .prettierignore             # Prettier ignore patterns
-├── .prettierrc.yml             # Prettier configuration
 ├── dev-app-update.yml          # Auto-updater dev configuration
 ├── electron-builder.yml        # Electron builder configuration
-├── eslint.config.mjs           # ESLint configuration
+├── biome.json                  # Biome configuration
 ├── LICENSE.md                  # License file
 ├── package.json                # Project dependencies and scripts
 ├── package-lock.json           # Locked dependencies
