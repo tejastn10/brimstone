@@ -1,8 +1,6 @@
-import { FC } from "react";
-
-import { Versions } from "./components/Versions";
-
+import type { FC } from "react";
 import electronLogo from "./assets/electron.svg";
+import { Versions } from "./components/Versions";
 
 const App: FC = () => {
 	const ipcHandle = (): void => window.electron.ipcRenderer.send("ping");
@@ -25,6 +23,8 @@ const App: FC = () => {
 					</a>
 				</div>
 				<div className="action">
+					{/** biome-ignore lint/a11y/noStaticElementInteractions: <Template> */}
+					{/** biome-ignore lint/a11y/useValidAnchor: <Template> */}
 					<a target="_blank" rel="noreferrer" onClick={ipcHandle}>
 						Send IPC
 					</a>

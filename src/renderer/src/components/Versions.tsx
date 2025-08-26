@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { type FC, useState } from "react";
 
 const Versions: FC = () => {
 	const [versions] = useState(window.electron.process.versions);
